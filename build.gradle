@@ -25,6 +25,7 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-webflux'
+    runtimeOnly 'org.fusesource.jansi:jansi:2.4.0'
 
     // lombok
     compileOnly 'org.projectlombok:lombok'
